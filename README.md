@@ -2,7 +2,14 @@
 ## apex chart vue js
 
 # config rasp
-cc
+## node JS
+node est déja installé
+
+## vue JS
+
 ```
-code
+sudo npm create vue@latest
+cd dashboard
+npm install
+
 ```
