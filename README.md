@@ -13,6 +13,8 @@ dashboard > N + Entrée >N >N >N >n .....
 ```
 cd dashboard
 npm install
+npm run dev
+npm install apexcharts --save
 ```
 
 
