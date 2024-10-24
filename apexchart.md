@@ -1,6 +1,7 @@
 
 # Apexchart vue3 js
 ```bash
+sudo vue create dashboard
 cd vue_js/dashboard
 npm install --save vue3-apexcharts
 ```
