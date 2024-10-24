@@ -11,6 +11,9 @@ app.vue est la page principale (index.html)
 
 dans components ce sont les fichiers pour la creation de graphiques, appeler dans App.vue
 ```bash
+cd src/
+```
+```bash
 App.vue
 ├── assets
 │   └── logo.png
