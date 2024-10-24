@@ -24,3 +24,10 @@ App.vue
 │   └── HelloWorld.vue
 └── main.js
 ```
+
+```bash
+screen -S apexchart
+cd dashboard/
+sudo npm run serve
+ctrl + A + D
+```
