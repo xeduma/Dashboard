@@ -32,5 +32,5 @@ INSERT INTO bourse_action (nom, type, prix_actuel, dividendes, dividendes_nb_1an
  VALUES
  ('EPR Properties', 'action', 42.89, true, 12, 'janvier|fevrier|mars|avril|mai|juin|juillet|aout|septembre|octobre|novembre|decembre', 3.16 ),
  ('Nvidia', 'action', 123.8, false, 4, 'mars|juin|septembre|decembre', 0.04),
- ('Vanguard S&P 500 UCITS ETF (USD) Acc', 'etf', false, 100.20, 0);
+ ('Vanguard S&P 500 UCITS ETF (USD) Acc', 'etf', 100.20, false, 0, '', 0);
 ```
