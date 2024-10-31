@@ -14,7 +14,7 @@ date_achat DATE,
 quantité INT
 );
 
-CREATE TABLEbourse_action
+CREATE TABLE bourse_action
 (
 id INT PRIMARY KEY NOT NULL,
 nom VARCHAR(100),
