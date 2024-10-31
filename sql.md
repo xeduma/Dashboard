@@ -5,7 +5,7 @@ dividendes
 ```sql
 CREATE TABLE bourse_portefeuille
 (
-id INT PRIMARY KEY NOT NULL,
+id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 borker_nom VARCHAR(100),
 broker_type VARCHAR(100),
 nom_action VARCHAR(100),
