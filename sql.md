@@ -19,18 +19,18 @@ CREATE TABLE bourse_action
 id INT PRIMARY KEY NOT NULL,
 nom VARCHAR(100),
 type VARCHAR(100),
-prix_actuel INT,
+prix_actuel FLOAT,
 dividendes BOOL,
 dividendes_nb_1an INT,
 dividendes_mois_versement VARCHAR(100),
-dividendes_annual INT
+dividendes_annual FLOAT
 );
 ```
 insert into   
 ```sql
 INSERT INTO bourse_action (nom, type, prix_actuel, dividendes, dividendes_nb_1an, dividendes_mois_versement, dividendes_annual)
  VALUES
- ('EPR Properties', 'action', 42.89, 1, 12, 'janvier|fevrier|mars|avril|mai|juin|juillet|aout|septembre|octobre|novembre|decembre', 3.16 ),
- ('Nvidia', 'action', 123.8, 1, 4, 'mars|juin|septembre|decembre', 0.04),
- ('Vanguard S&P 500 UCITS ETF (USD) Acc', 'etf', 100.20, 0);
+ ('EPR Properties', 'action', 42.89, true, 12, 'janvier|fevrier|mars|avril|mai|juin|juillet|aout|septembre|octobre|novembre|decembre', 3.16 ),
+ ('Nvidia', 'action', 123.8, false, 4, 'mars|juin|septembre|decembre', 0.04),
+ ('Vanguard S&P 500 UCITS ETF (USD) Acc', 'etf', false, 100.20, 0);
 ```
