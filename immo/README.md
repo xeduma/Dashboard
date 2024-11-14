@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install apexcharts vue3-apexcharts axios
 ```
 
 ### Compiles and hot-reloads for development
