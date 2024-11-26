@@ -20,10 +20,10 @@ python -m venv env
 ```
 utilisation : 
 ```bash
-source env/bin/activate
+source /home/nodeuser/Python/env/bin/activate
 
 pip list
-.
+pip install .....
 .
 
 deactivate
