@@ -1,8 +1,10 @@
-# FLASK
+# librairie FLASK
 ## executer un script.sh
 
 
-# module 
+
+# librairie CUPS
+## imprimer depuis linux
 
 
 # installer environnemnt virtuel python 
