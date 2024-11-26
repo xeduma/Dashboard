@@ -18,8 +18,15 @@ module.exports = {
 proxy: {
       '/api': {
         target: 'http://127.0.0.1:3017',
-        changeOrigin: true
-      }
+        changeOrigin: true,
+		secure: false,
+      },
+	'/run-script': {
+        	target: 'http://127.0.0.1:3018',
+	        changeOrigin: true,
+		secure: false,
+      	}
+
     }
   },
 };
