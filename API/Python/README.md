@@ -20,7 +20,9 @@ utilisation :
 ```bash
 source env/bin/activate
 
-# exemple pip list
+pip list
+.
+.
 
 deactivate
 ```
