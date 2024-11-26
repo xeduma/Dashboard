@@ -30,6 +30,7 @@ import Cards2 from './components/Cards2.vue';
 
 //------------------------autre--------------------
 import Bitcoin from './components/Bitcoin.vue';
+import script1 from './components/script1.vue';
 
 
 //------------------------Plan Prod--------------------
@@ -67,6 +68,7 @@ const routes = [
   { path: '/cards2', component: Cards2},
 
   { path: '/Bitcoin', component: Bitcoin},
+  { path: '/script1', component: script1},
 
   { path: '/plan_prod/', component: Plan_prod_lister},
   { path: '/plan_prod/ajouter', component: Plan_prod_ajouter},
