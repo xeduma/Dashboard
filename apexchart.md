@@ -1,5 +1,7 @@
 
 # Apexchart vue3 js
+test des graphique
+projet non terminer    en pause 
 ```bash
 sudo vue create dashboard
 cd vue_js/dashboard
