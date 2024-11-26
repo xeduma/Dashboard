@@ -5,8 +5,8 @@
     <router-link to="/dessin-pyramide" class="menu-item">Pyramide</router-link>
 
     <router-link to="/action" class="menu-item">Action Bourse</router-link>
-
     <router-link to="/perf-action" class="menu-item">PerfAction Lister</router-link>
+    <router-link to="/script1" class="menu-item">script1 helloword</router-link>
 
     <router-link to="/bar" class="menu-item">Bar</router-link>
     <router-link to="/ligne" class="menu-item">Ligne</router-link>
