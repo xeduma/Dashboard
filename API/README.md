@@ -1,9 +1,11 @@
 # API NODE Express
-api en node express pour les data de immo
-## Projet Immo SQL
+## Projet Immo 
+sqlite3 pour sql : 
  - action bourse
  - Perf action
  - Plan_prod
+
+api express pour /api/xxx/xx
 
 # API PYTHON
 api python pour action systèmes 
