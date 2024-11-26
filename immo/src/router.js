@@ -7,23 +7,37 @@ import Dessinpyramide from './components/Dessin-pyramide-patrimoine.vue';
 	import Dessinpyramide3 from './components/Dessin-pyramide-patrimoine3.vue';
 	import Dessinpyramide4 from './components/Dessin-pyramide-patrimoine4.vue';
 
+//------------------------action bourse--------------------
+import AjouterActionBourse from './components/Action_bourse_ajouter.vue';
+import SupprimerActionBourse from './components/Action_bourse_supprimer.vue';
+import ListerTableauBourseAction from './components/Action_bourse_lister.vue';
 
-import AjouterActionBourse from './components/ajouter_action_bourse.vue';
-import SupprimerActionBourse from './components/supprimer_action_bourse.vue';
-import ListerTableauBourseAction from './components/lister_bourse_action.vue';
+//------------------------performance action-------------------
+import ListerPerfAction from './components/Perf_action_lister.vue';
+import AjouterPerfAction from './components/Perf_action_ajouter.vue';
+import GraphPerfAction from './components/Perf_action_graphique.vue';
 
-import ListerPerfAction from './components/ListPerformanceAction.vue';
-import AjouterPerfAction from './components/AjouterPerformanceAction.vue';
-import GraphPerfAction from './components/PerformanceGraph.vue';
+//------------------------apexhchart--------------------
+import Bar from './components/Apexchart_bar2.vue';
+import Ligne from './components/Apexchart_ligne.vue';
+import Donuts from './components/Apexchart_donuts.vue';
+import Realtime from './components/Apexchart_bar2.vue';
 
-import Bar from './components/Bar_Apexchart.vue';
-import Ligne from './components/Ligne_Apexchart.vue';
-import Donuts from './components/Donuts_Apexchart.vue';
-
-import Realtime from './components/Realtime_Apexchart.vue';
-import Bitcoin from './components/Bitcoin.vue';
+//------------------------card (connecter a l'api)--------------------
 import Cards from './components/Cards.vue';
 import Cards2 from './components/Cards2.vue';
+
+
+//------------------------autre--------------------
+import Bitcoin from './components/Bitcoin.vue';
+
+
+//------------------------Plan Prod--------------------
+import Plan_prod_lister from './components/Plan_prod_lister.vue';
+import Plan_prod_ajouter from './components/Plan_prod_ajouter.vue';
+import Plan_prod_today from './components/Plan_prod_today.vue';
+import Plan_prod_today_print from './components/Plan_prod_today_print.vue';
+import Plan_prod_pdf from './components/Plan_prod_pdf.vue';
 
 
 const routes = [
@@ -35,22 +49,30 @@ const routes = [
 
   { path: '/bdd-list-table', component: BDDListTable },
 
-  { path: '/listertableau', component: ListerTableauBourseAction },
-  { path: '/ajouter', component: AjouterActionBourse },
-  { path: '/supprimer', component: SupprimerActionBourse },
+  { path: '/action', component: ListerTableauBourseAction },
+  { path: '/action/ajouter', component: AjouterActionBourse },
+  { path: '/action/supprimer', component: SupprimerActionBourse },
 
-  { path: '/listerperfaction', component: ListerPerfAction },
-  { path: '/ajouterperfaction', component: AjouterPerfAction },
-  { path: '/graphperfaction', component: GraphPerfAction},
+  { path: '/perf-action', component: ListerPerfAction },
+  { path: '/perf-action/ajouter', component: AjouterPerfAction },
+  { path: '/perf-action/graph', component: GraphPerfAction},
 
   { path: '/bar', component: Bar},
   { path: '/ligne', component: Ligne},
   { path: '/donuts', component: Donuts},
-
   { path: '/realtime', component: Realtime},
-  { path: '/Bitcoin', component: Bitcoin},
+
+
   { path: '/cards', component: Cards},
   { path: '/cards2', component: Cards2},
+
+  { path: '/Bitcoin', component: Bitcoin},
+
+  { path: '/plan_prod/', component: Plan_prod_lister},
+  { path: '/plan_prod/ajouter', component: Plan_prod_ajouter},
+  { path: '/plan_prod/today', component: Plan_prod_today},
+  { path: '/plan_prod/today/print', component: Plan_prod_today_print},
+  { path: '/plan_prod/pdf', component: Plan_prod_pdf},
 
 ];
 
