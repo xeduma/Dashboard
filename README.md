@@ -1,15 +1,15 @@
 # Dashboard
 
 # Sommaire
+1. installation du Framework vuejs
+ - [install vue js](#installation-vuejs)
+2. Création du projet
+   - [création projet dashboard]()
+   - [installation librairies apexchart]()
+   
 
- - []()
- - []()
 
-
-
-## apex chart vue js
-[lien](.md)
-# config rasp
+# installation vuejs
 ## node JS
 node est déja installé
 
