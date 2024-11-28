@@ -2,16 +2,16 @@
 
 # Sommaire
 1. installation du Framework vuejs
- - [install vue js](#installation-vuejs)
+ - [install vue js](#1-installation-vuejs)
 2. Création du projet
-   - [création projet dashboard](#Création-projet-dashboard)
+   - [création projet dashboard](#2-Création-projet-dashboard)
    - [installation librairies apexchart](#Installation-des-libraires-Apexchart)
 3. Lancement du serveur
- - [Lancement du serveur](#lancement-du-server)
+ - [Lancement du serveur](#3-lancement-du-server)
    
 
 
-# installation vuejs
+# 1. installation vuejs
 ## node JS
 node est déja installé
 
@@ -21,7 +21,7 @@ installation de vue3js
 ```
 
 
-# Création projet dashboard
+# 2. Création projet dashboard
 ```bash
 sudo npm create vue@latest
 ```
@@ -30,11 +30,6 @@ dashboard > N + Entrée >N >N >N >n .....
 cd dashboard
 npm install
 npm run dev
-```
-# Configuration
-```bash
-npm install apexcharts vue3-apexcharts
-
 ```
 
 
@@ -70,7 +65,7 @@ npm install --save vue3-apexcharts
 ```
 
 
-# lancement du server
+# 3. lancement du server
 ```bash
 screen -S apexchart
 cd dashboard/
