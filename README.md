@@ -2,12 +2,12 @@
 
 # Sommaire
 1. installation du Framework vuejs
- - [install vue js](#1-installation-vuejs)
-2. Création du projet
-   - [création projet dashboard](#2-Création-projet-dashboard)
-   - [installation librairies apexchart](#Installation-des-libraires-Apexchart)
-3. Lancement du serveur
- - [Lancement du serveur](#3-lancement-du-server)
+    - [install vue js](#1-installation-vuejs)
+3. Création du projet
+    - [création projet dashboard](#2-Création-projet-dashboard)
+    - [installation librairies apexchart](#Installation-des-libraires-Apexchart)
+5. Lancement du serveur
+    - [Lancement du serveur](#3-lancement-du-server)
    
 
 
