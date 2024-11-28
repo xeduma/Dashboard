@@ -22,6 +22,7 @@ installation de vue3js
 
 
 # 2. Création projet dashboard
+### option 1
 ```bash
 sudo npm create vue@latest
 ```
@@ -29,17 +30,14 @@ dashboard > N + Entrée >N >N >N >n .....
 ```bash
 cd dashboard
 npm install
-npm run dev
 ```
 
-
-autre option 
-# Apexchart vue3 js
-
+### option 2
 ```bash
 sudo vue create dashboard
 cd vue_js/dashboard
 ```
+
 app.vue est la page principale de lancement
 dans le dossier components, ce sont les fichiers pour la creation de graphiques, appeler dans App.vue
 ```bash
@@ -58,7 +56,6 @@ App.vue
 ```
 
 # Installation des libraires Apexchart
-
 ```bash
 npm install apexcharts --save
 npm install --save vue3-apexcharts
