@@ -1,5 +1,6 @@
 # immo
 répertoire de test de mes projets
+sudo npm run serve
 
 ## Project setup
 ```
