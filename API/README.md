@@ -7,6 +7,16 @@ sqlite3 pour sql :
 
 api express pour /api/xxx/xx
 
+démarrer l'api
+```bash
+screen -S api_immo
+cd
+cd Express/finance
+npm run start
+ctrl + a + d
+```
+
+
 # API PYTHON
 api python pour action systèmes 
  - impression
